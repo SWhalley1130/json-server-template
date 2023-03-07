@@ -1,52 +1,115 @@
 {
-  "toys": [
+  "trips": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Beach Bums",
+      "description": "A quick trip to get some sunshine and relax on the beach",
+      "image": "https://photostorage.explorest.com/usa/hawaii/vlim-mai-poina-palmtree-feed.jpg",
+      "guests": [
+        "Mom",
+        "Dad"
+      ],
+      "destinations": [
+        "Miami, Florida",
+        "At Sea",
+        "Puerto Plata, Dominican Republic",
+        "At Sea",
+        "Miami, Florida"
+      ],
+      "flights": [
+        {
+          "date": "2023-03-24",
+          "info": "PHL to MIA"
+        },
+        {
+          "date": "2023-04-01",
+          "info": "MIA to PHL"
+        }
+      ],
+      "hotels": [
+        {
+          "date": "2023-03-24",
+          "info": "Miami Inn"
+        },
+        {
+          "date": "2023-03-08",
+          "info": "Holiday Inn"
+        }
+      ],
+      "activities": [
+        {
+          "day": 1,
+          "info": "Go to the bar"
+        },
+        {
+          "day": 3,
+          "info": "Swim in the pool"
+        },
+        {
+          "day": 5,
+          "info": "Nature tour"
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    },
-    {
-      "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
-    },
-    {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
-    },
-    {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
-    },
-    {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "name": "Glaciers Galore ",
+      "description": "Wintery family vacation to sightsee",
+      "image": "https://www.travelalaska.com/sites/default/files/2021-12/ExploreAlaska_Itineraries_See%20Alaska%27s%20Grandest%20Glaciers%20_Hero_%28ATIA%29_0.jpg",
+      "guests": [
+        "Mom",
+        "Dad",
+        "Alex",
+        "Mallory"
+      ],
+      "destinations": [
+        "Vancouver, Canada",
+        "Ketchikan, Alaska",
+        "Sitka, Alaska",
+        "Endicott Arm & Dawes Glacier, Alaska",
+        "Juneau, Alaska",
+        "At Sea",
+        "Victoria, British Columbia",
+        "Seattle, Washington "
+      ],
+      "flights": [
+        {
+          "date": "2023-07-15",
+          "info": "PHL to YVR"
+        },
+        {
+          "date": "2023-07-23",
+          "info": "SEA to PHL"
+        }
+      ],
+      "hotels": [
+        {
+          "date": "2023-07-15",
+          "info": "Vancouver Inn"
+        },
+        {
+          "date": "2023-07-23",
+          "info": "Seattle Inn"
+        }
+      ],
+      "activities": [
+        {
+          "day": 1,
+          "info": "Power Nap"
+        },
+        {
+          "day": 3,
+          "info": "Look at a glacier"
+        },
+        {
+          "day": 5,
+          "info": "Watch Titanic and panic"
+        },
+        {
+          "day": 7,
+          "info": "Eat some fancy food"
+        }
+      ]
     }
   ]
 }
